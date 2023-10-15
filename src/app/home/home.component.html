@@ -2,6 +2,12 @@
   <h1 class="title">
     {{ 'PAGES.HOME.TITLE' | translate }}
   </h1>
+  <nav>
+    <a routerLink="/barcodes/add-items">{{ 'PAGES.HOME.BARCODES.ADD_ITEMS' | translate }}</a> |
+    <a routerLink="/barcodes/remove-items">{{ 'PAGES.HOME.BARCODES.REMOVE_ITEMS' | translate }}</a> |
+    <a routerLink="/barcodes/check-status">{{ 'PAGES.HOME.BARCODES.CHECK_STATUS' | translate }}</a> |
+    <a routerLink="/admin/barcodes">{{ 'PAGES.HOME.ADMIN.BARCODES' | translate }}</a> |
+    <a routerLink="/detail">{{ 'PAGES.HOME.GO_TO_DETAIL' | translate }}</a> |
+  </nav>
 
-  <a routerLink="/detail">{{ 'PAGES.HOME.GO_TO_DETAIL' | translate }}</a>
 </div>

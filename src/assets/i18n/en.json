@@ -2,7 +2,15 @@
   "PAGES": {
       "HOME": {
           "TITLE": "App works !",
-          "GO_TO_DETAIL": "Go to Detail"
+          "GO_TO_DETAIL": "Go to Detail",
+          "BARCODES": {
+              "ADD_ITEMS": "Add new barcode",
+              "REMOVE_ITEMS": "Checkout barcode",
+              "CHECK_STATUS": "Check barcodes status"
+          },
+          "ADMIN": {
+              "BARCODES" : "Admin barcode pages"
+          }
       },
       "DETAIL": {
         "TITLE": "Detail page !",
